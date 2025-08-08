@@ -1,0 +1,21 @@
+name: messagebeta
+description: Offline messaging using Nearby Connections
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  nearby_connections: ^1.1.1
+  google_fonts: ^6.1.0
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
